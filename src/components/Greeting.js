@@ -8,14 +8,13 @@ const Greeting = () => {
   useEffect(() => {
     dispatch(fetchGreetings());
   }, [dispatch]);
-  
-   
-    const { greetings }= useSelector((state) => state.greetings)
-    return (
-      <div>
-        <h1>{ greetings }</h1>
-      </div>
-    )
-  }
+
+  const greetings = useSelector((state) => state.greetings);
+  return (
+    <div>
+      <h1>{greetings}</h1>
+    </div>
+  );
+};
 
 export default Greeting;
