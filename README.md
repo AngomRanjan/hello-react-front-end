@@ -17,12 +17,9 @@ React Front-end.
 ## Getting Started
  To get a local copy of this project, open your terminal and type:
   - git clone git@github.com:AngomRanjan/hello-react-front-end.git
-  - cd budget-app
-  - bundle install
-  - rails db:create
-  - rails db:migrate
-  - rails server
- Open your browser and goto http://127.0.0.1:3000 or http://localhost:3000 
+  - cd hello-react-front-end
+  - npm install
+  - npm start 
  That's it! You can play with it as you wish 😄
  
 ### Authors
